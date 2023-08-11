@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap');
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+body {
+  background-image: url('/img/background.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.boxoffice {
+  box-sizing: border-box;
+  position: absolute;
+  width:70%;
+  height: 70%;
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 3%;
+
+}
