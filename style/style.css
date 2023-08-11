@@ -7,17 +7,148 @@ body {
   background-size:cover;
   background-repeat: no-repeat;
   background-color: transparent;
+  width: auto;
+  height: auto;
 }
 
-.boxoffice {
+main {
   box-sizing: border-box;
   position: absolute;
-  width:70%;
-  height: 70%;
+  width:60%;
   margin-top: 2%;
-  margin-left: 15%;
-  margin-right: 15%;
-  background-color: rgba(0,0,0,0.7);
-  border-radius: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 2%;
+  padding-bottom: 5%;
+}
 
+.logocont > .logo {
+  box-sizing: border-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:5%;
+  width: 205px;
+  height: 100px;
+}
+.slogancont, .slogan{
+  display: block;
+  box-sizing: border-box;
+  margin-top:0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(100,218,65);
+  text-align: center;
+}
+
+.controlcont, .scooterrow{
+  display: block;
+  box-sizing: border-box;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-content: center;
+  vertical-align: middle;
+}
+.controlcont {
+  background-color:rgb(100,218,65);
+  height: 50px;
+  border-radius: 3px;
+}
+
+.whitespaceblockleft {
+  display: inline-block;
+  box-sizing: content-box;
+  width:28%;
+  /* border: 1px solid red; */
+}
+.buttonscont {
+  display: inline-block;
+  width:50%;
+}
+#bookinbtn, #killbookinbtn, #turnonlightsbtn{
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  height: 20px;
+  padding: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.whitespaceblockright {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 30%;
+  border: 1px solid red;
+}
+
+.whitespaceblockvertical {
+  width:80%;
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* padding-top:3px;
+  padding-bottom:3px; */
+  box-sizing: border-box;
+  /* position: absolute; */
+}
+
+.scooterrow {
+  display: block;
+  /* border: 1px solid red;
+  border-radius: 2px; */
+}
+
+.scooterbox {
+
+}
+
+.labcheckbox {
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.position {
+  margin:1px;
+  border:1px;
+  color: rgb(255,255,255);
+  font-size: 13px;
+}
+
+.chargestatusbox {
+  display: block;
+  margin: 6px;
+  border: 4px;
+}
+
+.chargelabel {
+  margin:1px;
+  border:1px;
+  color: rgb(255,255,255);
+}
+
+.chargestatusfrom0to30, .chargestatusfrom30to50, .chargestatusfrom50to80, .chargestatusfrom80to100 {
+  height:20px;
+  border-radius:3px;
+}
+.chargestatusfrom0to30 {
+  width: 20%;
+  background-color: rgb(176,74,70);
+}
+.chargestatusfrom30to50 {
+  width:40%;
+  background-color: rgb(235,183,100);
+}
+
+.chargestatusfrom80to100{
+  width:100%;
+  background-color: rgb(92,192,64);
 }
